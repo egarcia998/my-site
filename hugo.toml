@@ -1,0 +1,43 @@
+baseURL = "https://yourusername.github.io/"
+languageCode = "en-us"
+title = "Ernesto Garcia"
+theme = "ananke"
+
+[params]
+  description = "PhD Candidate in Mathematics · Probability & Reinforcement Learning"
+  show_reading_time = false
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[[menus.main]]
+  name = "About"
+  url = "/about/"
+  weight = 1
+
+[[menus.main]]
+  name = "Research"
+  url = "/research/"
+  weight = 2
+
+[[menus.main]]
+  name = "Teaching"
+  url = "/teaching/"
+  weight = 3
+
+[[menus.main]]
+  name = "Talks"
+  url = "/talks/"
+  weight = 4
+
+[[menus.main]]
+  name = "Outreach"
+  url = "/outreach/"
+  weight = 5
+
+[[menus.main]]
+  name = "CV"
+  url = "/cv/"
+  weight = 6
